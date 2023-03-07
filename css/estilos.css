@@ -1,0 +1,265 @@
+/* Sección inicio*/
+
+.inicio {
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+	url("Imágenes/fondo.jpg");  /*CAMBIAR*/
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+}
+
+.inicio {
+	max-width: 1000px;
+	height:200px;
+	margin: auto;
+	text-align: center;
+	padding: 0 10px;
+}
+.inicio .logo {
+	font-weight: bold;
+    font-size: 4.0rem;
+    font-family: 'Yellowtail', cursive;
+    text-shadow: 0 0 35px #fff;
+	color: #940253;
+}
+.inicio .info h1 {
+	font-size: 2.5rem;
+	letter-spacing: 5px;
+}
+.inicio .info h2 {
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: -10px;
+	letter-spacing: 2px;
+}
+
+/** barra de navegación*/
+.navbar {
+	padding: 30px;
+	font-size:20px;
+}
+
+.navbar-collapse {
+	align-items: center;
+	justify-content: space-between;
+}
+/**responsivo*/
+@media screen and (max-width: 767px) {
+	.navbar-brand {
+		display: none;
+	}
+}
+/*estilos generales, se aplican a toda los elem de la section*/
+section {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1 {
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* seccion principal*/
+.presentacion {
+	background-color: #f5f6f7;
+	min-height: 450px;
+	text-align: center;
+}
+.presentacion-principal {
+	padding: 3rem;
+}
+.presentacion-imagen-desarrollador {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 20px;
+}
+.presentacion-principal h2 {
+	font-size: 1.5rem;
+	color: #615151;
+}
+/**datos*/
+.datos fondo-claro {
+	color: black;
+	background-color: white;
+}
+.datos fondo-oscuro {
+	color: white;
+	background-color: black;
+}
+.datos { /**se ve el margen blanco xq no saque la grilla*/
+	padding: 40px /*40px 60px 40px;*/
+}
+/**si lo saco se oculta la grilla*/
+.datos .row div {
+	height: 250px;
+	/**background-color: grey;*/
+	border: 1.5px solid purple;
+	padding: 20px;
+	justify-content: space-evenly;
+	transition: all 0.2s ease-in;
+}
+.datos .columna:hover {
+	color: white;
+	background-color: grey;
+}
+
+.datos i {
+	font-size: 2.5rem;
+	color: black;
+	background-color: #940253;
+	padding: 4px 14px;
+	border-radius: 50%
+}
+.datos-titulo {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+/**pie de pagina*/
+footer {
+	min-height: 500px;
+}
+.footer-icono {
+	height: 80px;
+	width: 80px;
+	margen: 10px;
+}
+
+.footer-texto {
+	font-size: 2.5rem;
+	padding: 20px;
+	margin-bottom: 30px;
+	font-family: 'Yellowtail', cursive;
+	color: #940253;
+}
+.iconos-redes a {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	border: 2px solid blue;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	transition: all 0.2s ease-in;
+}
+.iconos-redes i {
+	color: blue;
+	font-size: 1.5rem;
+	transition: all 0.2s ease-in;
+}
+   
+
+.iconos-redes a:hover {
+	color: #fff;
+	background-color: blue;
+	box-shadow: 0 0 20px #fff;
+}	
+.iconos-redes a:hover i {
+	color: white;
+}
+/**  ---------------   */
+
+.derechos-de-autor {
+	font-size: 15px;
+	color: #aeaeae;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
